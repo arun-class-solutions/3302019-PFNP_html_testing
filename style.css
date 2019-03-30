@@ -1,0 +1,24 @@
+body {
+  background-color: blue;
+}
+
+/* "#" is for IDs */
+#website-title {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+/* "." is for Classes */
+.animated-div {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  background-color: orange;
+}
+
+.animated-div:hover {
+  transition: all 1.5s ease-in-out;
+  transform: rotate(360deg);
+}
